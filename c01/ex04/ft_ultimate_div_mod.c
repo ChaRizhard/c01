@@ -3,20 +3,20 @@
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
-	int c;
-	int d;
+	int	c;
+	int	d;
 	c = *a / *b;
 	d = *a % *b;
 	*a = c;
 	*b = d;
 }
-
+/*
 int main()
 {
-	int a;
-	int b;
-	int c;
-	int d;
+	int	a;
+	int	b;
+	int	c;
+	int	d;
 	a = 21;
 	b = 5;
 
@@ -26,3 +26,4 @@ int main()
 	printf("%i ", b);
 	return(0);
 }
+*/

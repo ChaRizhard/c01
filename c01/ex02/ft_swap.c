@@ -3,17 +3,17 @@
 
 void	ft_swap(int *a, int *b)
 {
-	int c;
+	int	c;
 	c = *a;
 	*a = *b;
 	*b = c;
 }
-
+/*
 int main()
 {
-	int a;
-	int b;
-	int c;
+	int	a;
+	int	b;
+	int	c;
 	a = 20;
 	b = 30;
 
@@ -22,3 +22,4 @@ int main()
 	printf("This pointer *b should be 30 but it is, %i", b);
 	return(0);
 }
+*/
